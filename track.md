@@ -1,0 +1,36 @@
+create-tauri-app@4.5.2
+
+## flow
+
+pnpm create tauri-app
+
+ncu -i
+
+pnpm i
+
+pnpm tauri android init (需要 android 环境)
+
+## log
+
+```
+$ pnpm create tauri-app
+✔ Project name · template-tauri-v2-mobile-create-way
+✔ Identifier · com.template-tauri-v2-mobile-create-way.app
+✔ Choose which language to use for your frontend · TypeScript / JavaScript - (pnpm, yarn, npm, deno, bun)
+✔ Choose your package manager · pnpm
+✔ Choose your UI template · React - (https://react.dev/)
+✔ Choose your UI flavor · TypeScript
+
+Template created! To get started run:
+  cd template-tauri-v2-mobile-create-way
+  pnpm install
+  pnpm tauri android init
+
+For Desktop development, run:
+  pnpm tauri dev
+
+For Android development, run:
+  pnpm tauri android dev
+
+
+```
